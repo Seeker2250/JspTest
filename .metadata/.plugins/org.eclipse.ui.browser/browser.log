@@ -1,0 +1,166 @@
+
+10월 15, 2024 10:25:24.663 NEW SESSION
+10월 15, 2024 10:25:24.663 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 10:25:24.914 [8520:27000:1015/102524.914:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 10:30:44.157 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 10:30:44.381 [6260:18836:1015/103044.381:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 11:13:38.474 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 11:13:38.688 [15000:21588:1015/111338.688:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 11:28:21.909 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 11:28:22.151 [9556:30716:1015/112822.151:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 11:34:04.761 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 11:34:04.980 [18212:19180:1015/113404.979:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 11:34:12.975 [18212:15768:1015/113412.975:ERROR:get_updates_processor.cc(265)] PostClientToServerMessage() failed during GetUpdates with error Network error (ERR_ABORTED)
+10월 15, 2024 11:35:45.607 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 11:35:45.832 [2744:4348:1015/113545.832:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 11:35:52.375 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 11:35:52.628 [29084:2376:1015/113552.628:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 11:37:15.920 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 11:43:19.635 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 11:43:19.849 [6380:30320:1015/114319.848:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 11:52:05.719 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 11:52:05.860 [22084:12576:1015/115205.860:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 11:52:33.504 [22084:12576:1015/115233.504:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 11:53:18.789 [22084:12576:1015/115318.789:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 11:54:45.332 [22084:12576:1015/115445.332:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 11:58:19.768 [22084:12576:1015/115819.768:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 12:03:56.868 [22084:12576:1015/120356.853:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 12:10:48.323 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 12:10:48.628 [30484:14300:1015/121048.628:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 12:11:12.405 [30484:14300:1015/121112.404:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 12:12:10.303 [30484:14300:1015/121210.303:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 12:13:49.587 [30484:14300:1015/121349.587:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 12:16:41.440 [30484:14300:1015/121641.440:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 12:19:15.986 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 12:19:16.159 [21212:8168:1015/121916.158:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 12:19:40.12 [21212:8168:1015/121940.012:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 12:20:35.877 [21212:8168:1015/122035.877:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 12:22:16.68 [21212:8168:1015/122216.068:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 12:25:38.347 [21212:8168:1015/122538.347:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 12:31:01.267 [21212:8168:1015/123101.266:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 12:31:43.803 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 12:31:44.55 [19872:21952:1015/123144.055:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 12:32:13.47 [19872:21952:1015/123213.047:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 12:33:05.663 [19872:21952:1015/123305.663:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 12:34:44.428 [19872:21952:1015/123444.428:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 12:37:50.966 [19872:21952:1015/123750.965:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 12:44:13.970 [19872:21952:1015/124413.969:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 12:46:03.191 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 12:46:03.405 [1104:15056:1015/124603.405:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 12:46:33.584 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 12:46:33.792 [15904:9812:1015/124633.791:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 12:47:00.529 [15904:9812:1015/124700.529:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 12:47:42.99 [15904:9812:1015/124742.099:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 12:49:07.150 [15904:9812:1015/124907.150:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 12:51:55.662 [15904:9812:1015/125155.662:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 12:58:34.523 [15904:9812:1015/125834.523:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 14:22:32.796 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 14:22:32.998 [26756:19088:1015/142232.998:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 14:25:47.650 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 14:25:47.865 [9028:16556:1015/142547.865:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 14:26:15.770 [9028:16556:1015/142615.770:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 14:26:57.360 [9028:16556:1015/142657.360:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 14:28:39.489 [9028:16556:1015/142839.488:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 14:31:59.965 [9028:16556:1015/143159.964:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 14:37:22.32 [9028:16556:1015/143722.031:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 14:56:15.60 [9028:9304:1015/145615.060:ERROR:interface_endpoint_client.cc(725)] Message 0 rejected by interface blink.mojom.WidgetHost
+10월 15, 2024 14:58:00.362 [9028:9304:1015/145800.362:ERROR:interface_endpoint_client.cc(725)] Message 0 rejected by interface blink.mojom.WidgetHost
+10월 15, 2024 15:10:33.43 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 15:10:33.204 [20464:26048:1015/151033.203:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 15:11:00.354 [20464:26048:1015/151100.354:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 15:11:43.280 [20464:26048:1015/151143.280:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 15:13:26.676 [20464:26048:1015/151326.676:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 15:16:17.206 [20464:26048:1015/151617.206:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 15:24:49.875 [29784:20696:1015/152449.875:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 15:24:50.163 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 15:25:27.707 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 15:25:27.878 [12816:22284:1015/152527.878:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 15:25:57.453 [12816:22284:1015/152557.453:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 15:26:01.741 [12816:24472:1015/152601.741:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:26:02.267 [12816:24472:1015/152602.266:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:26:03.247 [12816:24472:1015/152603.246:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:26:03.763 [12816:24472:1015/152603.763:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:26:04.702 [12816:24472:1015/152604.701:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:26:17.746 [12816:24472:1015/152617.745:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:26:18.280 [12816:24472:1015/152618.280:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:26:18.899 [12816:24472:1015/152618.899:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:26:19.419 [12816:24472:1015/152619.419:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:26:21.596 [12816:24472:1015/152621.596:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:26:23.46 [12816:24472:1015/152623.045:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:26:23.607 [12816:24472:1015/152623.607:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:26:30.813 [12816:24472:1015/152630.813:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:26:31.323 [12816:24472:1015/152631.322:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:26:32.563 [12816:24472:1015/152632.563:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:26:34.380 [12816:24472:1015/152634.380:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:26:34.944 [12816:24472:1015/152634.944:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:26:42.582 [12816:22284:1015/152642.582:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 15:26:45.899 [12816:24472:1015/152645.898:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:26:46.415 [12816:24472:1015/152646.415:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:27:00.281 [12816:24472:1015/152700.281:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:27:00.797 [12816:24472:1015/152700.797:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:27:05.53 [12816:24472:1015/152705.053:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:27:05.564 [12816:24472:1015/152705.564:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:27:06.680 [12816:24472:1015/152706.680:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:27:07.295 [12816:24472:1015/152707.295:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:27:07.916 [12816:24472:1015/152707.915:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:27:08.963 [12816:24472:1015/152708.963:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:27:09.525 [12816:24472:1015/152709.525:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:27:12.484 [12816:24472:1015/152712.483:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:27:12.995 [12816:24472:1015/152712.995:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:27:13.743 [12816:24472:1015/152713.743:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:27:24.947 [12816:24472:1015/152724.947:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:27:25.549 [12816:24472:1015/152725.549:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:27:36.915 [12816:24472:1015/152736.914:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:27:37.447 [12816:24472:1015/152737.447:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:27:40.946 [12816:24472:1015/152740.946:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:27:43.463 [12816:24472:1015/152743.463:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:27:45.14 [12816:24472:1015/152745.013:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:27:45.529 [12816:24472:1015/152745.528:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:27:48.497 [12816:24472:1015/152748.496:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:27:49.382 [12816:24472:1015/152749.381:ERROR:CONSOLE(1)] "Unknown VE context: language-mismatch", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
+10월 15, 2024 15:28:58.411 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 15:28:58.655 [14204:10616:1015/152858.655:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 15:29:21.921 [14204:10616:1015/152921.920:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 15:30:08.176 [14204:10616:1015/153008.176:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 15:31:33.960 [14204:10616:1015/153133.959:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 15:35:09.799 [14204:10616:1015/153509.798:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 15:42:16.805 [14204:10616:1015/154216.805:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 16:04:45.148 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 16:04:45.414 [26332:25224:1015/160445.413:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 16:05:12.525 [26332:25224:1015/160512.525:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 16:06:02.294 [26332:25224:1015/160602.294:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 16:07:58.760 [26332:25224:1015/160758.760:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 16:11:42.577 [26332:25224:1015/161142.577:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+
+10월 15, 2024 16:14:17.731 NEW SESSION
+10월 15, 2024 16:14:17.731 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 16:14:17.921 [11220:3404:1015/161417.921:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 16:15:26.446 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 16:15:26.666 [3716:4152:1015/161526.666:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 16:15:50.349 [3716:4152:1015/161550.349:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 16:16:32.392 [3716:4152:1015/161632.391:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 16:18:05.57 [3716:4152:1015/161805.056:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 16:21:21.36 [3716:4152:1015/162121.036:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 16:24:16.987 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 16:24:17.290 [28608:9088:1015/162417.289:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 16:24:43.941 [28608:9088:1015/162443.941:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 16:25:58.949 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 16:25:59.164 [26184:18000:1015/162559.163:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 16:26:19.962 [26184:18000:1015/162619.962:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -118
+10월 15, 2024 16:26:28.996 [26184:18000:1015/162628.995:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 16:27:17.907 [26184:18000:1015/162717.906:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 16:28:41.951 [26184:18000:1015/162841.950:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 16:32:25.816 [26184:18000:1015/163225.816:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 16:38:35.09 [26184:18000:1015/163835.008:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 17:11:35.995 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 17:11:36.193 [23052:24244:1015/171136.192:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 17:12:03.618 [23052:24244:1015/171203.617:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 17:12:55.801 [23052:24244:1015/171255.801:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 17:14:51.582 [23052:24244:1015/171451.582:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 17:18:36.935 [23052:24244:1015/171836.934:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 17:26:31.734 [23052:24244:1015/172631.734:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 17:38:17.542 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 15, 2024 17:38:17.746 [28568:29704:1015/173817.746:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 17:38:41.789 [28568:29704:1015/173841.789:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 17:39:42.28 [28568:29704:1015/173942.027:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT
+10월 15, 2024 17:41:26.718 [28568:29704:1015/174126.718:ERROR:registration_request.cc(291)] Registration response error message: DEPRECATED_ENDPOINT

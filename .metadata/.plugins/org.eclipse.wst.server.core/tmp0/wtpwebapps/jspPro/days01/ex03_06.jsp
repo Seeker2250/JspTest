@@ -43,19 +43,75 @@ span.material-symbols-outlined {
 	</header>
 	<div>
 		<xmp class="code"> </xmp>
+		                    
+  </xmp>
+  <!-- <form> -->
+  <!-- 정수 : <input type="text" id="num" name="num" autofocus="autofocus" value='<%-- %><%= pNum != null ? pNum : "" %>--%>'>-->
+  정수 : <input type="text" id="num" name="num" autofocus="autofocus"> 
+  <p id="demo">
+  <%  
+    if( pNum != null && !pNum.equals("") ){
+          int sum = 0;
+          for(int i=1; i<= num ; i++){
+             sum += i;
+        %><%= i %>+<%        
+          } // for
+        %>=<%= sum %>
+        <%
+    } // if
+  %>
+  </p>
+  <!-- </form> -->
+  <script>
+    $("#num")
+      .css("text-align","center")
+      <%-- .val('<%= pNum != null ? pNum : "" %>') --%>
+      .val(`${param.num}`)
+      .on({
+         "keydown":function (e){
+            if ( !(e.which >= 48 && e.which <= 57                 
+                     || e.which == 8
+                     || e.which == 13
+                     || e.which == 229
+                 )){
+               alert("숫자만 입력하세요.");
+               e.preventDefault();
+            } // if
+         },
+         "keyup":function (event){
+           //if( $("#num").val().length != 0  && event.which == 13){
+           if( event.which == 13){    
+              // js BOM
+              // $("form").submit();
+              let numValue = $("#num").val();
+              location.href = `ex03_06.jsp?num=\${numValue}`;
+           } // if
+         }
+      })
+      .select();
+  </script>
+</div> 
+</body>
+</html>
 		
-		정수 : <input type="number" id="num" autofocus value="<%= pNum != null ? pNum : "" %>"> <br>
-		<p id="demo">
-		<% 
-		if(pNum != null && !pNum.equals("")){
-		  int sum = 0;
-		  for(int i = 1; i <= num; i++){
-		  sum +=i;
-		  out.write(i+"+");
-		  }
-		  out.write("=" + sum);
-		}
-	  %></p>
+		
+		
+		
+<!--
+정수 : <input type="number" id="num" autofocus value="<%--<%= pNum != null ? pNum : "" %>--%>"> <br>
+<p id="demo">
+
+<%-- <% 
+if(pNum != null && !pNum.equals("")){
+  int sum = 0;
+  for(int i = 1; i <= num; i++){
+  sum +=i;
+  out.write(i+"+");
+  }
+  out.write("=" + sum);
+}
+ %> --%>
+ </p>
 <script>
 $("#num")
   .css("text-align","center")
@@ -88,4 +144,4 @@ $("#num")
 
 	</div>
 </body>
-</html>
+</html>-->

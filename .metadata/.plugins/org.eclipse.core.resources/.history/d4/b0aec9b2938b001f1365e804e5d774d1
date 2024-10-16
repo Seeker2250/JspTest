@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>jspPro</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  
+  <!-- 톰캣 시작하면 새로~ -->
+  <servlet>
+  	<description>첫 번째 서블릿~</description>
+  	<description>날짜와 시간 정보를 response~</description>
+  	<servlet-name>now</servlet-name>
+  	<servlet-class>days02.Now</servlet-class><!-- 패키지 이름까지 줄 것!!! -->
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>now</servlet-name>
+    <!-- <url-pattern>*.htm</url-pattern>  요청 경로 설정 516p
+    <url-pattern>/test/*</url-pattern>-->
+    <url-pattern>/sample/now.html</url-pattern>
+  </servlet-mapping> 
+  
+</web-app>

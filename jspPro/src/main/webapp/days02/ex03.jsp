@@ -17,7 +17,7 @@
 </head>
 <body>
 <header>
-  <h1 class="main"><a href="#" style="position: absolute;top:30px;">lsh</a></h1>
+  <h1 class="main"><a href="#" style="position: absolute;top:30px;">Seeker Home</a></h1>
   <ul>
     <li><a href="#">로그인</a></li>
     <li><a href="#">회원가입</a></li>
@@ -31,7 +31,7 @@
       - 자바 웹 기술
       - 로직 처리
       - MV[C] 패턴 개발 ()
-            C : 서블릿
+      		C : 서블릿
       
     2. 서블릿 구현 방법(과정)
       (1) [서블릿 규약]을 따르는 자바 클래스 선언
@@ -66,8 +66,8 @@
             
       (5) 브라우저 ->   요청 URL  ->    서블릿  -> 응답.
   </xmp>
-  <a href="/jspPro/hello?name=이시훈">/hello</a>
-  <a href="/jspPro/hello1?name=김준석">/hello1</a>
+  <a href="/jspPro/hello?name=홍길동">/hello</a>
+  <a href="/jspPro/hello1?name=되어라">/hello1</a>
   <hr />
   <a href="sample.htm">sample.htm</a><br />
   <a href="/jspPro/days02/ex01.htm">/jspPro/days02/ex01.htm</a><br />

@@ -59,7 +59,7 @@ public class Now extends HttpServlet {
 		out.write("</head>");
 		out.write("<body>");
 		out.write("<header>");
-		out.write("  <h1 class='main'><a href='#' style='position: absolute;top:30px;'>lsh</a></h1>");
+		out.write("  <h1 class='main'><a href='#' style='position: absolute;top:30px;'>seeker</a></h1>");
 		out.write("  <ul>");
 		out.write("    <li><a href='#'>로그인</a></li>");
 		out.write("    <li><a href='#'>회원가입</a></li>");

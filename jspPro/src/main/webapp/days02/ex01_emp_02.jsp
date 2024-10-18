@@ -84,9 +84,10 @@
             comm = rs.getDouble("comm");
             deptno = rs.getInt("deptno");
             
-            vo = new EmpVO().builder()
+            /* vo = new EmpVO().builder()
                .empno(empno).ename(ename).job(job).mgr(mgr)
-               .hiredate(hiredate).sal(sal).comm(comm).deptno(deptno).build();
+               .hiredate(hiredate).sal(sal).comm(comm).deptno(deptno).build(); */
+               vo = new EmpVO().builder().empno(empno).ename(ename).job(job).mgr(mgr).hiredate(hiredate).sal(sal).comm(comm).deptno(deptno).build();
 
             list.add(vo);
             

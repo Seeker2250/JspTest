@@ -6,7 +6,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
-
+import lombok.Builder;
 @Getter
 @Setter
 @ToString
@@ -17,9 +17,9 @@ public class DeptVO {
 	private int deptno;
 	private String dname;
 	private String loc;
-	private int cnt;//»ç¿ø¼ö
+	private int cnt;//ì‚¬ì› ìˆ˜
 }
 /*
- * eclipse¿¡¼­ help  -> About Eclipse IDE È®ÀÎ
- * ±âÁ¸¿¡´Â build path°¡¼­ ¼³Á¤ÇÏ¸é µÇ´Âµ¥ À¥¿¡¼­´Â WEB-INF ÆÄÀÏ º¸¸é lib º¸¸é ±× ¾È¿¡ ´Ù Áý¾î³ÖÀ¸¸é µÅ
+ * eclipseï¿½ï¿½ï¿½ï¿½ help  -> About Eclipse IDE È®ï¿½ï¿½
+ * ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ build pathï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ï¸ï¿½ ï¿½Ç´Âµï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ WEB-INF ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ lib ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½È¿ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½
  * */ 

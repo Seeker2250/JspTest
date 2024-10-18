@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 //                                                                                       수정
 @WebServlet(description = "서블릿에서 get/post 방식 요청 테스트", urlPatterns = { "/method/info.htm" })
+
 public class Info extends HttpServlet {
    private static final long serialVersionUID = 1L;
 

@@ -124,7 +124,7 @@
 </head>
 <body>
 <header>
-  <h1 class="main"><a href="#" style="position: absolute;top:30px;">Seeker home</a></h1>
+  <h1 class="main"><a href="#" style="position: absolute;top:30px;">Seeker Home</a></h1>
   <ul>
     <li><a href="#">로그인</a></li>
     <li><a href="#">회원가입</a></li>

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.text.quicksearch.internal.ui.QuickSearchDialog.DIALOG_SETTINGS">
-		<item key="LAST_QUERY" value="package days03;&#x0D;&#x0A;&#x0D;&#x0A;import java.io.IOException;&#x0D;&#x0A;import java.io.PrintWriter;&#x0D;&#x0A;&#x0D;&#x0A;import javax.servlet.ServletException;&#x0D;&#x0A;import javax.servlet.annotation.WebServlet;&#x0D;&#x0A;import javax.servlet.http.HttpServlet;&#x0D;&#x0A;import javax.servlet.http.HttpServletRequest;&#x0D;&#x0A;import javax.servlet.http.HttpServletResponse;&#x0D;&#x0A;//                                                                                       수정&#x0D;&#x0A;@WebServlet(description = &quot;서블릿에서 get/post 방식 요청 테스트&quot;, urlPatterns = { &quot;/method/info.htm&quot; })&#x0D;&#x0A;public class Info extends HttpServlet {&#x0D;&#x0A;   private static final long serialVersionUID = 1L;&#x0D;&#x0A;&#x0D;&#x0A;    public Info() {&#x0D;&#x0A;        super();&#x0D;&#x0A;&#x0D;&#x0A;    }&#x0D;&#x0A;&#x0D;&#x0A;   protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {&#x0D;&#x0A;&#x09;   response.setContentType(&quot;UTF-8&quot;);&#x0D;&#x0A;&#x09;   System.out.println(&quot;&gt; Info.doGet()&quot;);&#x0D;&#x0A;      PrintWriter out = response.getWriter();&#x0D;&#x0A;      &#x0D;&#x0A;      String name = request.getParameter(&quot;name&quot;);&#x0D;&#x0A;      int age = Integer.parseInt(request.getParameter(&quot;age&quot;));&#x0D;&#x0A;      &#x0D;&#x0A;      out.print(&quot;이름 : &quot; + name + &quot;&lt;br&gt;&quot;);&#x0D;&#x0A;      out.print(&quot;나이 : &quot; + age + &quot;&lt;br&gt;&quot;);&#x0D;&#x0A;   }&#x0D;&#x0A;&#x0D;&#x0A;   protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {&#x0D;&#x0A;&#x09;   response.setContentType(&quot;UTF-8&quot;);&#x0D;&#x0A;&#x09;   request.setCharacterEncoding(&quot;UTF-8&quot;);&#x0D;&#x0A;&#x09;   System.out.println(&quot;&gt; Info.doPost()&quot;);&#x0D;&#x0A;      PrintWriter out = response.getWriter();&#x0D;&#x0A;      &#x0D;&#x0A;      String name = request.getParameter(&quot;name&quot;);&#x0D;&#x0A;      int age = Integer.parseInt(request.getParameter(&quot;age&quot;));&#x0D;&#x0A;      &#x0D;&#x0A;      out.print(&quot;이름 : &quot; + name + &quot;&lt;br&gt;&quot;);&#x0D;&#x0A;      out.print(&quot;나이 : &quot; + age + &quot;&lt;br&gt;&quot;);&#x0D;&#x0A;   }&#x0D;&#x0A;&#x0D;&#x0A;}&#x0D;&#x0A;"/>
+		<item key="LAST_QUERY" value="lsh"/>
 		<item key="PATH_FILTER" value=""/>
 		<item key="CASE_SENSITIVE" value="true"/>
 		<item key="KEEP_OPEN" value="false"/>
 		<list key="COLUMN_WIDTHS">
 			<item value="40"/>
 			<item value="400"/>
-			<item value="120"/>
+			<item value="652"/>
 		</list>
 		<list key="SASH_WEIGHTS">
 			<item value="714"/>
@@ -16,12 +16,16 @@
 		</list>
 		<section name="DialogBoundsSettings">
 			<item key="DIALOG_HEIGHT" value="500"/>
-			<item key="DIALOG_WIDTH" value="600"/>
-			<item key="DIALOG_X_ORIGIN" value="668"/>
-			<item key="DIALOG_Y_ORIGIN" value="191"/>
+			<item key="DIALOG_WIDTH" value="1132"/>
+			<item key="DIALOG_X_ORIGIN" value="205"/>
+			<item key="DIALOG_Y_ORIGIN" value="186"/>
 			<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 		</section>
 	</section>
 	<section name="NewWizardAction">
+	</section>
+	<section name="ResourceNavigator">
+		<item key="ResourceViewer.STORE_SORT_TYPE" value="1"/>
+		<item key="ResourceWorkingSetFilter.STORE_WORKING_SET" value="Aggregate for window 1728954383150"/>
 	</section>
 </section>

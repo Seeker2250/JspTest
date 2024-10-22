@@ -1,27 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
-  <display-name>jspPro</display-name>
-  <welcome-file-list>
-    <welcome-file>index.html</welcome-file>
-    <welcome-file>index.htm</welcome-file>
-    <welcome-file>index.jsp</welcome-file>
-    <welcome-file>default.html</welcome-file>
-    <welcome-file>default.htm</welcome-file>
-    <welcome-file>default.jsp</welcome-file>
-  </welcome-file-list>
-  
-  <!-- <servlet>
-     <description>첫 번째 서블릿</description>
-     <description>현재 날짜, 시간 정보 응답</description>
-     <servlet-name>now</servlet-name> 필수
-     <servlet-class>days02.Now</servlet-class> 패키지명.클래스명 / 대소문자 구분
-  </servlet>
-  <servlet-mapping>
-     <servlet-name>now</servlet-name> url 패턴 해당되면 now 호출.
-     <url-pattern>*.htm</url-pattern>
-     <url-pattern>/days02/now.do</url-pattern> / : context path 뒤에 경로부터
-     <url-pattern>/test/*</url-pattern>
-     <url-pattern>/hello</url-pattern> x
-  </servlet-mapping> -->
-  
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+	id="WebApp_ID" version="4.0">
+	<display-name>jspPro</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<!-- <servlet> <description>첫 번째 서블릿</description> <description>현재 날짜, 시간 
+		정보 응답</description> <servlet-name>now</servlet-name> 필수 <servlet-class>days02.Now</servlet-class> 
+		패키지명.클래스명 / 대소문자 구분 </servlet> <servlet-mapping> <servlet-name>now</servlet-name> 
+		url 패턴 해당되면 now 호출. <url-pattern>*.htm</url-pattern> <url-pattern>/days02/now.do</url-pattern> 
+		/ : context path 뒤에 경로부터 <url-pattern>/test/*</url-pattern> <url-pattern>/hello</url-pattern> 
+		x </servlet-mapping> -->
+		
+		
+	<!--
+ 	<error-page>
+		<error-code>404</error-code>
+		<location>/WEB-INF/error/404.jsp</location>
+	</error-page>
+	
+	<error-page>
+		<exception-type>java.lang.NullPointerException</exception-type>
+		<location>/WEB-INF/error/nullPointer.jsp</location>	
+	</error-page> 
+	-->
+	
+	
+	
+	<!-- 
+	<jsp-config>
+		<jsp-property-group>
+			<url-pattern>/days01/*</url-pattern>
+			<include-prelude>/WEB-INF/inc/variable.jspf</include-prelude>
+			<include-coda>/WEB-INF/inc/footer.jspf</include-coda>
+		</jsp-property-group>
+	</jsp-config> -->
+	<!-- 웹사이트 전체에서 사용할 공통 환경 설정값 초기화
+		 application 객체 + method()
+		  -->
+	<context-param>
+		<description>DB연결할 때 사용자 계정 명시</description>
+		<param-name>user</param-name>
+		<param-value>scott</param-value>
+	</context-param>
+	<context-param>
+		<description>DB 비밀번호</description>
+		<param-name>password</param-name>
+		<param-value>ss123$</param-value>
+	</context-param>
+	<context-param>
+		<description>파일 경로</description>
+		<param-name>path</param-name>
+		<param-value>/days06</param-value>
+	</context-param>
 </web-app>

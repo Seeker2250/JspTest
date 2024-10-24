@@ -19,13 +19,18 @@
 		<item key="DIALOG_Y_ORIGIN" value="392"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="UTF"/>
+		<item key="selection" value="htm"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<item key="wrap" value="true"/>
 		<item key="incremental" value="false"/>
 		<list key="findhistory">
+			<item value="cstv"/>
+			<item value="htm"/>
+			<item value=".htm"/>
+			<item value="button"/>
+			<item value="글"/>
 			<item value="UTF"/>
 			<item value="[응답 상태 코드]"/>
 			<item value="title"/>
@@ -36,10 +41,6 @@
 			<item value="con"/>
 			<item value="h2"/>
 			<item value="getEmp"/>
-			<item value="뒤로"/>
-			<item value="pDeptno"/>
-			<item value="pDe"/>
-			<item value="부서를"/>
 		</list>
 		<list key="replacehistory">
 		</list>

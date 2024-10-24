@@ -41,7 +41,7 @@
 </header>
 <div>
  <xmp class="code">
-    ex02_default.jsp
+    ex05_default.jsp
   </xmp>
   
   <!-- 로그인 -->

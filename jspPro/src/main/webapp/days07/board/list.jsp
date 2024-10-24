@@ -25,16 +25,16 @@
   <ul>
     <li><a href="#">로그인</a></li>
     <li><a href="#">회원가입</a></li>
-    <li><a href="/jspPro/cstvsboard/list.htm">게시판</a></li>
+    <li><a href="/jspPro/board/list.do">게시판</a></li>
   </ul>
 </header>
 <div>
   <xmp class="code">
-     list.jsp
+     days 07 list.jsp
   </xmp>
 
   <h2>목록 보기</h2>
-  <a href="<%= contextPath %>/cstvsboard/write.htm">글쓰기</a>
+  <a href="<%= contextPath %>/board/write.do">글쓰기</a>
   <select name="cmbNumberPerPage" id="cmbNumberPerPage">
   </select>
      <script>
@@ -44,7 +44,7 @@
       
       $("#cmbNumberPerPage").on("change",function(){
          let npp = $(this).val();
-         location.href = `/jspPro/cstvsboard/list.htm?numberPerPage=\${npp}`;
+         location.href = `/jspPro/board/list.do?numberPerPage=\${npp}`;
       });
       
       $("#cmbNumberPerPage").val("${pvo.numberPerPage}");
@@ -71,7 +71,7 @@
             <c:forEach items="${list}" var="dto">
                <tr>
                   <td>${dto.seq}</td>
-                  <td><a class="title" href="<%= contextPath %>/cstvsboard/view.htm?seq=${ dto.seq }">${dto.title}</a></td>
+                  <td><a class="title" href="<%= contextPath %>/board/view.do?seq=${ dto.seq }">${dto.title}</a></td>
                   <td>${dto.writer}</td>
                   <td>${dto.writedate}</td>
                   <td>${dto.readed}</td>
@@ -110,7 +110,7 @@
                   let npp = ${pvo.numberPerPage};
                   let sc = '${param.searchCondition}';
                   let sw = '${param.searchWord}';
-                  return `/jspPro/cstvsboard/list.htm?currentPage=\${oldHref}&numberPerPage=\${npp}&searchCondition=\${sc}&searchWord=\${sw}`;
+                  return `/jspPro/board/list.do?currentPage=\${oldHref}&numberPerPage=\${npp}&searchCondition=\${sc}&searchWord=\${sw}`;
                });
             </script>
             

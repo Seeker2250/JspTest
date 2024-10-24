@@ -56,13 +56,19 @@
        controller servlet은 web.xml에 등록
        
        web.xml 복사해서 web_days07.xml로 보관
+       tomcat 시작 -> web.xml을 읽어 들여서 설정들 실행
+       -> Controller가 모든 요청을 받는 1개의 servlet이기 때문에 servlet이 web.xml에 등록되어있어.
+       -> 
   </xmp>	
   
   <a href="/jspPro/board/list.do">/board/list.do</a>
+  
   <!-- 
+  
   board_commandHandler
   ->ListHandler
   ->/days07/board/list.jsp
+  
   -->
   
 </div> 

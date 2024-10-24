@@ -3,6 +3,7 @@ package days07.mvc.controller;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.Hashtable;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Map.Entry;
@@ -35,18 +36,18 @@ public class DispatcherServlet extends HttpServlet {
     	super.init();
     	//System.out.println("> DispatcherServlet.init()...");
     	// web.xml  <servlet><init-param><param-name>path</servlet>
-    	String path = this.getInitParameter("path");
-    	String realPath = this.getServletContext().getRealPath(path);
+    	String path = this.getInitParameter("path");///WEB-INF/board_commandHandler.properties경로가 들어가겠지
+    	String realPath = this.getServletContext().getRealPath(path);//배포할 때의 경로
     	// C:\E\Class\SS20Class\Workspace\JSPClass\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\jspPro\WEB-INF\commandHandler.properties
     	//System.out.println(realPath);
     	
-    	Properties prop = new Properties();
+    	Properties prop = new Properties();//Map 계열이야. key, value 모두 String인  Hashtable
     	try (FileReader reader = new FileReader(realPath);) {
 			prop.load(reader);		 
 		} catch (Exception e) { 
 			throw new ServletException();
 		} 
-    	// .properties -load()-> prop<key, value> -> Map<url, 실제객체 >
+    	// .properties -load()-> prop<key, value> -> Map<url, 실제객체>
     	Set<Entry<Object, Object>> set = prop.entrySet();
     	Iterator<Entry<Object, Object>> ir = set.iterator();
     	while(ir.hasNext()) {
@@ -59,7 +60,7 @@ public class DispatcherServlet extends HttpServlet {
     		try {
     			commandHandlerClass = Class.forName(className);
     			try {
-					CommandHandler handler = (CommandHandler) commandHandlerClass.newInstance();
+					CommandHandler handler = (CommandHandler) commandHandlerClass.newInstance();//객체 생성
 					this.commandHandlerMap.put(url, handler); // 맵 추가
 				} catch (InstantiationException e) { 
 					e.printStackTrace();

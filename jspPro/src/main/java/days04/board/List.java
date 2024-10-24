@@ -35,6 +35,7 @@ public class List extends HttpServlet {
 	int numberOfPageBlock = 10; // [1] 2 3 4 5 6 7 8 9 10>
 	int totalRecords = 0;	 	// 총 레코드 수
 	int totalPages = 0;			// 총 페이지 수
+	
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
 		System.out.println("List.doGet()");

@@ -24,7 +24,8 @@ public class Write extends HttpServlet {
         super();
 
     }
-
+    
+    //글쓰기 버튼 클릭해서 글 쓰는 페이지로
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		System.out.println("Write.doGet()");
@@ -38,6 +39,7 @@ public class Write extends HttpServlet {
 		
 	} // doGet
 
+	//작성 완료 후 저장 후 db로
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		
 		System.out.println("Write.doPost()");
@@ -68,7 +70,7 @@ public class Write extends HttpServlet {
 	      // 포워딩, [ 리다이렉트 ]
 	      String location = "/jspPro/cstvsboard/list.htm";
 	      location += rowCount == 1 ? "?write=success":"?write=fail";
-	      response.sendRedirect(location);
+	      response.sendRedirect(location);//DispatcherServlet으로 가고 doPost()가 doGet()호출해서 처리
 		
 	} // doPost
 

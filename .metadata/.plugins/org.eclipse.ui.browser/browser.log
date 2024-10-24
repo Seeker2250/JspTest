@@ -1256,3 +1256,19 @@
 10월 23, 2024 14:44:44.317     at #x (devtools://devtools/bundled/devtools-frontend/front_end/entrypoints/main/main.js:1:17109)", source: devtools://devtools/bundled/devtools-frontend/front_end/ui/visual_logging/visual_logging.js (1)
 10월 23, 2024 15:11:42.157 Created TensorFlow Lite XNNPACK delegate for CPU.
 10월 23, 2024 17:07:52.05 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+10월 24, 2024 08:41:12.420 NEW SESSION
+10월 24, 2024 08:41:12.421 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+10월 24, 2024 15:09:42.100 NEW SESSION
+10월 24, 2024 15:09:42.100 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 24, 2024 15:10:04.86 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 24, 2024 15:14:27.941 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 24, 2024 15:18:15.979 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 24, 2024 15:21:22.156 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 24, 2024 15:27:12.239 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 24, 2024 15:29:31.620 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 24, 2024 15:34:32.320 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 24, 2024 15:41:20.05 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 24, 2024 16:32:28.495 Created TensorFlow Lite XNNPACK delegate for CPU.
+10월 24, 2024 16:32:49.406 Created TensorFlow Lite XNNPACK delegate for CPU.

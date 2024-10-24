@@ -91,7 +91,7 @@ public class Edit extends HttpServlet {
 	      DBConn.close();
 	      
 	      // 포워딩, [ 리다이렉트 ]
-	      String location = "/jspPro/cstvsboard/view.htm?seq="+pseq;
+	      String location = "/jspPro/board/view.do?seq="+pseq;
 	      location += rowCount == 1 ? "&edit=success":"&edit=fail";
 	      response.sendRedirect(location);
 	}

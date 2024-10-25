@@ -27,7 +27,7 @@
 		<init-param>
 			<description>encoding 초기값</description>
 			<param-name>encoding</param-name>
-			<param-value>UTP-8</param-value><!-- 이거로 적용하장 -->
+			<param-value>UTF-8</param-value><!-- 이거로 적용하장 -->
 		</init-param>
 	</filter>
 	<filter-mapping>

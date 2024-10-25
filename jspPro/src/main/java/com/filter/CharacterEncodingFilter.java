@@ -16,7 +16,7 @@ public class CharacterEncodingFilter implements Filter{
 		System.out.println("CharacterEncodingFilter 생성될 때 짜란~");
 		
 //		web.xml init-param UTF-8	
-		this.encoding = filterConfig.getInitParameter("encoding");//web.xml에 있는 이름
+		this.encoding = filterConfig.getInitParameter(this.encoding);//web.xml에 있는 이름
 	      if(this.encoding == null) this.encoding = "UTF-8";
 	}
 	
@@ -26,7 +26,7 @@ public class CharacterEncodingFilter implements Filter{
 		System.out.println("CharacterEncodingFilter doFilter 호출 때 따란~!");
 	
 			
-		request.setCharacterEncoding("UTF-8");
+		request.setCharacterEncoding(encoding);
 		chain.doFilter(request, response);
 		//다음 필터한테 넘겨(최종 자원일 수도 있어)
 		//이제 필터 등록해야해.

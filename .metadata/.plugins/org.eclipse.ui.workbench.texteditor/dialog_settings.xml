@@ -19,13 +19,18 @@
 		<item key="DIALOG_Y_ORIGIN" value="392"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="var icon"/>
+		<item key="selection" value="답글"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<item key="wrap" value="true"/>
 		<item key="incremental" value="false"/>
 		<list key="findhistory">
+			<item value="답글"/>
+			<item value="//POST"/>
+			<item value="submit"/>
+			<item value="write.do"/>
+			<item value="ke"/>
 			<item value="var icon"/>
 			<item value="ex02"/>
 			<item value="d"/>
@@ -36,11 +41,6 @@
 			<item value="place"/>
 			<item value="h_lng"/>
 			<item value="myMap()"/>
-			<item value="delete"/>
-			<item value="insert"/>
-			<item value="-"/>
-			<item value="-1"/>
-			<item value="setFile"/>
 		</list>
 		<list key="replacehistory">
 			<item value="ex01"/>

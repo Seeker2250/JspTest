@@ -37,21 +37,21 @@
 		<!-- <url-pattern>/</url-pattern> -->
 		<dispatcher>REQUEST</dispatcher><!-- 요청이 일어나면 여기 거쳐라(응답도, include도 아니야) -->
 	</filter-mapping>
-<!-- 
+	
 	<servlet>
-		<description>서블릿 3.1 파일 업로드 테스트</description>
-		<servlet-name>uploadServlet</servlet-name>
-		<servlet-class>days10.UploadServlet</servlet-class>
-		<multipart-config>
-			<location>C:\Tools\apache-tomcat-9.0.93\temp</location>
-			<max-file-size>-1</max-file-size>  byte
-			<max-request-size>-1</max-request-size>
-			<file-size-threshold>1024</file-size-threshold>
-		</multipart-config>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>uploadServlet</servlet-name>
-		<url-pattern>/days10/upload</url-pattern>
-	</servlet-mapping>
- -->
+       <description>days13 MVC 패턴 서블릿</description>
+       <description>컨트롤러 역할</description>
+       <servlet-name>dispatcher</servlet-name>
+       <servlet-class>days13.replyboard.controllor.DispatcherServlet</servlet-class>
+       <init-param>
+         <description>URL과 Handler 등록 파일경로</description>
+         <param-name>path</param-name>
+         <param-value>/WEB-INF/replyboard_commandHandler.properties</param-value>
+       </init-param>
+       <load-on-startup>1</load-on-startup>
+     </servlet> 
+     <servlet-mapping>
+       <servlet-name>dispatcher</servlet-name> 
+       <url-pattern>*.do</url-pattern>
+    </servlet-mapping>
 </web-app>
